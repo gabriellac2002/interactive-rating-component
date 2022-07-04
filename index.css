@@ -39,15 +39,7 @@ body{
     height: 23.5rem;
     border-radius: 0.8rem;
     padding: 1.5rem;
-}
- 
-.estado1{
-    visibility: hidden;
-}
- 
-.hide{
-    display: none;
-}
+} 
  
 .estrela{
     background-color: hsla(216, 12%, 54%,0.2);
@@ -124,9 +116,12 @@ h1{
     font-size: 1rem;
 }
  
-.btn_submit:hover{
+a:hover{
     color: hsl(25, 97%, 53%);
 }
-.estado2{
-    visibility: visible;
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%); ;
 }
+
